@@ -1,67 +1,89 @@
-# MovieWeb Kickstart Project
+# 🎬 MovieWebKit
 
-A launching point for building a movie streaming website. Created by GhostHax.
+A modern kickstart project for building a fully functional movie and TV streaming platform.
 
-## Features
+> 🚀 Originally created by **[bitfreee](https://github.com/bitfreee)**
+> 🔧 Overhauled, modernized, and maintained by **Flexify** and **GhostHax**
 
-- **Browse Movies**: Explore a vast collection of movies sorted by genre, release date, or popularity.
-- **Search Functionality**: Easily find movies by title, director, or cast.
-- **User Reviews**: Read and write reviews to share your thoughts and opinions about movies.
-- **User Ratings**: Rate movies and see the average ratings provided by the community.
-- **Recommendation Engine**: Get personalized movie recommendations based on your preferences and viewing history.
-- **Responsive Design**: Enjoy a seamless experience across devices with our responsive web design.
-
-## Deployments
-### Deploy with Vercel
-1. Click the button below to deploy the project on Vercel.
-
-- [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgodowner202%2Fmoviewebkit&env=NEXT_PUBLIC_APP_URL,NEXT_PUBLIC_TMDB_TOKEN,NEXT_PUBLIC_SITE_NAME) 
-2. Fill in the required environment variables:
-- `NEXT_PUBLIC_APP_URL`: The URL of your deployed project (e.g., `https://movie-web-kickstart.vercel.app`)
-- `NEXT_PUBLIC_TMDB_TOKEN`: Your TMDb API key (get it [here](https://www.themoviedb.org/documentation/api), or you can use default token in .env.example file for testing)
-- `NEXT_PUBLIC_SITE_NAME`: The name of your website (e.g., `MovieWeb Kickstart`)
-
-3. Click "Deploy" and wait for the deployment to complete.
-
-### Deploy with Cloudflare Pages
-To deploy on [Cloudflare Pages](https://pages.cloudflare.com/) you can use the following instructions:
-[README](https://github.com/cloudflare/next-on-pages/tree/main/packages/next-on-pages)
-
-## Local Development
-
-1. Clone the repository: `git clone https://github.com/bitfreee/movie-web-kickstart`
-2. Navigate to the project directory: `cd movie-web-kickstart`
-3. Install dependencies: `npm install`
-4. Create .env file `cp .env.example .env`
-4. Start the development server: `npm run dev`
-
-## Tech Stack
-
-- [Next.js](https://nextjs.org/) – framework
-- [TypeScript](https://www.typescriptlang.org/) – language
-- [Tailwind](https://tailwindcss.com/) – CSS
-- [Vercel](https://vercel.com/) – deployments
-- [TMDb](https://www.themoviedb.org/) - movie database
-- [Vidsrc.icu](https://vidsrc.icu) - streaming links
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/improvement`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/improvement`).
-6. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-- The Movie Database (TMDb) for providing the movie data through their API.
-- [Vidsrc.icu](https://vidsrc.icu) for providing the movie streaming links.
 ---
 
+## 🌟 Features
+
+* **Browse Movies** – Explore a wide collection by genre, release date, or popularity
+* **Search Functionality** – Find movies by title, director, or cast
+* **User Reviews** – Read and submit reviews from the community
+* **User Ratings** – Rate titles and view average community scores
+* **Recommendation Engine** – Get movie suggestions based on your viewing habits
+* **Responsive Design** – Optimized for all devices with mobile-first design
+
+---
+
+## 🚀 Deployments
+
+### Deploy with Vercel
+
+1. Click the button below to clone and deploy your own instance:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgodowner202%2Fmoviewebkit&env=NEXT_PUBLIC_APP_URL,NEXT_PUBLIC_TMDB_TOKEN,NEXT_PUBLIC_SITE_NAME)
+
+2. Set these required environment variables:
+
+   * `NEXT_PUBLIC_APP_URL`: Your site URL (e.g. `https://your-app.vercel.app`)
+   * `NEXT_PUBLIC_TMDB_TOKEN`: Your [TMDb API token](https://www.themoviedb.org/documentation/api)
+   * `NEXT_PUBLIC_SITE_NAME`: Name of your site (e.g. `MovieWebKit`)
+
+3. Click **Deploy** and wait for your site to go live.
+
+---
+
+### Deploy with Cloudflare Pages
+
+You can also deploy to [Cloudflare Pages](https://pages.cloudflare.com/) using [next-on-pages](https://github.com/cloudflare/next-on-pages/tree/main/packages/next-on-pages).
+Follow the instructions in the linked README.
+
+---
+
+## 🧑‍💻 Local Development
+
+git clone https://github.com/godowner202/moviewebkit
+cd moviewebkit
+npm install
+cp .env.example .env
+npm run dev
+
+---
+
+## 🛠 Tech Stack
+
+* **[Next.js](https://nextjs.org/)** – App framework
+* **[TypeScript](https://www.typescriptlang.org/)** – Type-safe language
+* **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first CSS framework
+* **[Vercel](https://vercel.com/)** – Hosting and deployment
+* **[TMDb API](https://www.themoviedb.org/)** – Movie metadata
+* **[Vidsrc.icu](https://vidsrc.icu)** – Streaming sources
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Make your changes
+4. Commit: `git commit -m "Describe your change"`
+5. Push: `git push origin feature/your-feature`
+6. Open a Pull Request 🎉
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file.
+
+---
+
+## 🙏 Acknowledgements
+
+* Thanks to **TMDb** for movie data
+* Thanks to **Vidsrc.icu** for stream links
+* Huge credit to **bitfreee** for the original codebase
+* Special thanks to **Flexify** & **GhostHax** for rebuilding and maintaining the project
