@@ -11,7 +11,7 @@ export default function Page({ params }: { params: { slug: string } }) {
     <EmbedPlayer
       movieId={movieId}
       mediaType={movieId?.includes('t') ? MediaType.ANIME : undefined}
-      url={`https://vidsrc.icu/embed/anime/${id}/1/0`}
+      url={`https://vidsrc.to/embed/anime/${id}/1/0`}
     />
   );
 }
